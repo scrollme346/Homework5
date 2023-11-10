@@ -41,14 +41,14 @@ class Program
             {
                 Console.Write(i + " ");
             }
-            Console.WriteLine();
+            Console.WriteLine("\n");
 
-            Console.WriteLine($"Числа в убывающем порядке :");
+            Console.WriteLine($"Числа в убывающем порядке:");
             for (int i = end; i >= start; i--)
             {
                 Console.Write(i + " ");
             }
-            Console.WriteLine();
+            Console.WriteLine("\n");
 
             Console.WriteLine($"Числа кратные 7:");
             for (int i = start; i <= end; i++)
@@ -58,7 +58,7 @@ class Program
                     Console.Write(i + " ");
                 }
             }
-            Console.WriteLine();
+            Console.WriteLine("\n");
 
             int count5 = 0;
             for (int i = start; i <= end; i++)
@@ -68,7 +68,7 @@ class Program
                     count5++;
                 }
             }
-            Console.WriteLine($"Количество чисел кратных 5 : {count5}");
+            Console.WriteLine($"Количество чисел кратных 5: {count5}");
         }
         catch (OverflowException)
         {
